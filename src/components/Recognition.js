@@ -1,9 +1,10 @@
-import csvtu from '../assets/csvtu.png';
 import forte from '../assets/forte.png';
+import dst from '../assets/dst.png';
+import trophy from '../assets/trophy.jpg';
 
 const RECS = [
-  { ico: <img src={forte} alt="FORTE" />, cat: 'Seed Funding Award', title: 'Ignition Grant', desc: 'Selected under Ignition Grant 2.0. at NIDHI i-TBI CSVTU-Foundation for Rural Technology and Entrepreneurship (CSVTU-FORTE)' },
-  { ico: '🏆', cat: 'Multiple Championships', title: 'Hackathon Wins', desc: 'First-place finishes across regional and national hackathon competitions.' },
+  { ico: [<img src={forte} alt="FORTE" />, <img src={dst} alt="DST" />], cat: 'Seed Funding Award', title: 'Ignition Grant', desc: 'Selected under Ignition Grant 2.0. at NIDHI i-TBI CSVTU-Foundation for Rural Technology and Entrepreneurship (CSVTU-FORTE)' },
+  { ico: <img src={trophy} alt="Trophy" />, cat: 'Multiple Championships', title: 'Hackathon Wins', desc: 'First-place finishes across regional and national hackathon competitions.' },
 ];
 export default function Recognition() {
   return (
