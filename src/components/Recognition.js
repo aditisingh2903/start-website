@@ -1,5 +1,8 @@
+import csvtu from '../assets/csvtu.png';
+import forte from '../assets/forte.png';
+
 const RECS = [
-  { ico: '🏅', cat: 'Seed Funding Award', title: 'Ignition Grant', desc: 'Selected for early-stage capital to accelerate product development and pilot deployments.' },
+  { ico: <img src={forte} alt="FORTE" />, cat: 'Seed Funding Award', title: 'Ignition Grant', desc: 'Selected under Ignition Grant 2.0. at NIDHI i-TBI CSVTU-Foundation for Rural Technology and Entrepreneurship (CSVTU-FORTE)' },
   { ico: '🏆', cat: 'Multiple Championships', title: 'Hackathon Wins', desc: 'First-place finishes across regional and national hackathon competitions.' },
 ];
 export default function Recognition() {

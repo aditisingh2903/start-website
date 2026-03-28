@@ -2,12 +2,14 @@ import aditi from '../assets/aditi.jpg';
 import ishan from '../assets/ishan.png';
 import aryan from '../assets/aryan.png';
 import yash from '../assets/yash.png';
+import prakash from '../assets/prakash.jpeg';  
 
 const TEAM = [
   { photo: aditi, name: 'Aditi Singh', role: 'Founder & Developer', initials: 'AS', bio: 'Drives product vision, full-stack development, and go-to-market strategy.' },
   { photo: ishan, name: 'Ishan Sahu', role: 'Hardware & AI/ML', initials: 'IS', bio: 'Designs IoT sensor hardware and builds ML models for predictive analytics.' },
   { photo: aryan, name: 'Aryan', role: 'Developer', initials: 'AR', bio: 'Focuses on backend architecture, cloud infrastructure, and API integrations.' },
   { photo: yash, name: 'Yash Singh', role: 'Developer', initials: 'YS', bio: 'Builds the frontend dashboard, mobile interfaces, and user experience.' },
+  { photo: prakash, name: 'Prakash Hamirwasia', role:'Hardware', initials:'PH', bio: 'Hardware Expert, works on device stability'},
 ];
 export default function Team() {
   return (
